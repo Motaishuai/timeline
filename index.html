@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Express MongoDB App Test</title>
+</head>
+<body>
+  <h1>Submit a Post</h1>
+  <form action="http://localhost:3000/submit" method="POST">
+    <label for="title">Title:</label><br>
+    <input type="text" id="title" name="title" minlength="20" required><br>
+    <label for="content">Content:</label><br>
+    <textarea id="content" name="content" minlength="20" required></textarea><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
